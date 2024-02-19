@@ -145,7 +145,7 @@ Public Class MainForm
         Me.Close()
     End Sub
 
-    'プログレスバーの処理
+    'プログレスバーの処理を行う
     Private Sub TimeLimitTimer_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TimeLimitTimer.Tick
 
         'GameStartButton_Click内のローカル変数に記載されているTimeProgressBar.Valueに対して-1を行う
